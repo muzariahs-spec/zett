@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff7f0;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background: #ff8c66;
+    padding: 12px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a.active {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    padding: 70px 20px;
+    background: url("https://source.unsplash.com/featured/?bakery") center/cover;
+    text-align: center;
+    color: white;
+}
+
+/* Cards */
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.card h3 {
+    text-align: center;
+}
+.card p {
+    text-align: center;
+}
+
+/* Page title */
+.page-title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* About */
+.about-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contact */
+.contact-box {
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.btn {
+    display: inline-block;
+    background: #ff6a33;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #ff8c66;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
